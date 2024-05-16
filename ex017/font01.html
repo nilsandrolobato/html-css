@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+
+    <style>
+        body {
+            font-family: 'Work Sans'; 
+            /*
+            Medidas Absolutas
+            -> cm, mm, in, px, pt, pc;
+
+            Medidas Relativas
+            -> em, ex, rem, vw, vh, %;
+
+            16px geralmente = 1em
+            */
+            font-size: 1em;           
+
+            /* lighter, normal, bold, bolder */
+        } 
+        
+        h1 {
+            /* Shorthand font
+            - font-style -> font-weight -> font-size -> font family
+
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab mollitia magni eaque aliquid id, accusantium a, fugit qui temporibus quam quas aliquam optio eius laborum recusandae nam corporis eveniet totam?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab mollitia magni eaque aliquid id, accusantium a, fugit qui temporibus quam quas aliquam optio eius laborum recusandae nam corporis eveniet totam?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab mollitia magni eaque aliquid id, accusantium a, fugit qui temporibus quam quas aliquam optio eius laborum recusandae nam corporis eveniet totam?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil tenetur corrupti ea nobis iste unde non quasi tempora quo animi illum, ipsa iusto. Quod, quae consectetur sint dolores ratione consequuntur!
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde, voluptatum obcaecati voluptatem ipsum sint cumque saepe in tempora rem quas quibusdam officia maiores ea vitae deleniti, cupiditate vero! Odio? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus rem tempora incidunt sapiente suscipit odit in temporibus porro, molestiae excepturi velit quam sunt commodi qui et, autem cupiditate. Itaque.
+    </p>
+</body>
+</html>
